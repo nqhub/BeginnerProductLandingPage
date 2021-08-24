@@ -242,6 +242,7 @@ footer .container{
 footer .info{
     flex: 1;
     list-style: none;
+    line-height: 30px;
     text-decoration: none;
 }
 footer .social{
