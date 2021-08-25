@@ -276,7 +276,7 @@ footer .social a > i{
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px){
     /*Secton-a of page min-size */
     .section-a {
         display: flex;
@@ -355,19 +355,20 @@ footer .social a > i{
         margin: auto;
     }
     .overlay-right{
-        margin-top: 20px;
+        margin: auto;
         font-weight: 100;
+        padding: 90px 0px;
     }
 
     /*Footer*/
     footer{
-        height: 100vh;
-        margin-top: 111px;
+        height: 100%;
+        margin-top: 200px;
     }
     footer .container{
         display: flex;
         flex-direction: column;
-        padding: 30px 0px;
+        margin: 50px 10px;
         height: auto;
     }
 }
