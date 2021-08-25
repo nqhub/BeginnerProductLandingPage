@@ -210,16 +210,14 @@ nav{
 }
 .overlay-right{
     flex: 2;
-    top: 50px;
-    right: 15px;
+
     width: 50vw;
     color: whitesmoke;
     text-align: center; 
-
 }
 .overlay-right h3{
     text-align: center;
-     font-family: 'Rampart One', cursive;
+    font-family: 'Rampart One', cursive;
 }
 
 
@@ -293,20 +291,19 @@ footer .social a > i{
     .nav a{
        font-size: small;
     }
-    .nav{
-        display: flex
-    }
     .intro {
         text-align: center;
     }
-    .intro .intro-text{
+    .intro, .intro-text{
         font-weight: 100;
         font-size: small;
+        width: 80vw;
+        margin: 25px auto;
     }
-    .subHead .subText{
+    .subHead, .subText {
         text-align: center;
         margin: auto;
-        width: 25vw;
+        width: 80vw;
     }
     .nav{
         display: flex;
@@ -315,8 +312,9 @@ footer .social a > i{
         justify-content: space-between;     
     }
     .cover-img .mySlide{
-        width: 250px;
-        height: 250px;
+        width: 350px;
+        height: 350px;
+        margin: auto;
     }
  
     /*Section-b of Page min-size*/
@@ -354,6 +352,7 @@ footer .social a > i{
         opacity: 0.6;
         align-items: center;
         justify-content: center;
+        margin: auto;
     }
     .overlay-right{
         margin-top: 20px;
