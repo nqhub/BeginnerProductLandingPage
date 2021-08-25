@@ -280,7 +280,7 @@ footer .social a > i{
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 600px){
     /*Secton-a of page min-size */
     .section-a {
         display: flex;
@@ -301,7 +301,8 @@ footer .social a > i{
         flex-direction: column;
     }
     .cover-img img{
-        width: auto;
+        width: 100px;
+        height: 100px;
     }
     
     /*Section-b of Page min-size*/
