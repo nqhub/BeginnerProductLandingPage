@@ -289,27 +289,34 @@ footer .social a > i{
     .intro {
         text-align: center;
     }
+    .intro .intro-text{
+        font-weight: 100;
+        font-size: small;
+    }
+    .subHead .subText{
+        text-align: center;
+        margin: auto 25px;
+    }
     .nav{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         justify-content: space-between;     
     }
-
+    .cover-img .mySlide{
+        width: 150px;
+        height: 150px;
+    }
+ 
+    /*Section-b of Page min-size*/
     .section-b{
         display: flex;
         flex-direction: column;
     }
-    .cover-img img{
-        width: 100px;
-        height: 100px;
-    }
-    
-    /*Section-b of Page min-size*/
 
     .card-1, .card-2, .card-3{
-        margin: 20px auto;
-        width: 50vw;
+        margin-left: 30px;
+        width: 75vw;
         border: none;
         padding: 30px 0 0 0;
         box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
