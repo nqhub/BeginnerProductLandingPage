@@ -300,7 +300,9 @@ footer .social a > i{
         display: flex;
         flex-direction: column;
     }
- 
+    .cover-img img{
+        width: auto;
+    }
     
     /*Section-b of Page min-size*/
 
