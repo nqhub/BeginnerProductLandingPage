@@ -228,13 +228,11 @@ footer{
     background-color: black;
     opacity: 0.8;
     color: beige;
-    height: 100%;
-    padding: 0px 0px 50px 0px;
+    padding: 0px 0px 30px 0px;
 }
 footer .container{
     display: flex;
     color: white;
-    align-items: baseline;
     justify-content: space-evenly;
     margin: 0px 20px;
     padding-top: 30px;
@@ -286,6 +284,18 @@ footer .social a > i{
         display: flex;
         flex-direction: column;
     }
+    #header-img{
+        height: 50px;
+    }
+    .logo-area h1{
+        font-size: large;
+    }
+    .nav a{
+       font-size: small;
+    }
+    .nav{
+        display: flex
+    }
     .intro {
         text-align: center;
     }
@@ -295,7 +305,8 @@ footer .social a > i{
     }
     .subHead .subText{
         text-align: center;
-        margin: auto 25px;
+        margin: auto;
+        width: 25vw;
     }
     .nav{
         display: flex;
@@ -304,8 +315,8 @@ footer .social a > i{
         justify-content: space-between;     
     }
     .cover-img .mySlide{
-        width: 150px;
-        height: 150px;
+        width: 250px;
+        height: 250px;
     }
  
     /*Section-b of Page min-size*/
@@ -313,13 +324,26 @@ footer .social a > i{
         display: flex;
         flex-direction: column;
     }
+    .card-1 img{
+        margin: auto;
+    }
+    .card-2 img{
+        margin: auto;
+    }
+    .card-3 img{
+        margin: auto;
+    }
 
     .card-1, .card-2, .card-3{
-        margin-left: 30px;
+        margin: auto;
         width: 75vw;
         border: none;
-        padding: 30px 0 0 0;
+        padding: 30px 50px;
+        text-align: center;
         box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+    }
+    .card-btn{
+        margin: 15px auto;
     }
 
     /*Section-c of Page min-size*/
@@ -340,6 +364,12 @@ footer .social a > i{
     footer{
         height: 100vh;
         margin-top: 111px;
+    }
+    footer .container{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 0px;
+        height: auto;
     }
 }
 
