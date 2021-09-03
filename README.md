@@ -8,7 +8,7 @@ My first product landing page from the Freecode Code Camp, Responsive Web Design
 
 ### Live Preview
 
-For the full preview of the Product page, the link is provided below:
+For the full preview of the Product page is:
 
 https://cyrusnderitu.github.io/BeginnerProductLandingPage/product.html
 
